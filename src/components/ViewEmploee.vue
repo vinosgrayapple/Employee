@@ -12,6 +12,11 @@
       Back
     </router-link>
     <button class="btn red" @click="deleteEmploee">Delete</button>
+     <div class="fixed-action-btn">
+      <router-link :to="{name: 'edit-emploee', params: {emploee_id: emploee_id}}" class="btn-floating btn-large green">
+        <i class="fa fa-pencil"></i>
+      </router-link>
+    </div>
   </div>
 </template>
 <script>
