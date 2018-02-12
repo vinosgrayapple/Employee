@@ -36,11 +36,11 @@
         .then(querySnapshot => {
           querySnapshot.forEach(doc => {
             const data = {
-              'id': doc.id,
-              'emploee_id': doc.data().emploee_id,
-              'name': doc.data().name,
-              'dept': doc.data().dept,
-              'position': doc.data().position
+              id: doc.id,
+              emploee_id: doc.data().emploee_id,
+              name: doc.data().name,
+              dept: doc.data().dept,
+              position: doc.data().position
             }
             this.emploees.push(data)
           })

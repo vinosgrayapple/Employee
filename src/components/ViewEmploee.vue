@@ -42,7 +42,7 @@
         })
     },
     watch: {
-      '$router': 'fetchData'
+      $router: 'fetchData'
     },
     methods: {
       fetchData() {

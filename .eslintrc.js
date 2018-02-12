@@ -11,8 +11,7 @@ module.exports = {
 		'standard',
 		'prettier',
 		'prettier/standard',
-		'plugin:prettier-rules/eslint',
-		'plugin:prettier-rules/react'
+		'plugin:prettier-rules/eslint'
 	],
 	plugins: ['vue', 'prettier', 'prettier-rules'],
 	rules: {
